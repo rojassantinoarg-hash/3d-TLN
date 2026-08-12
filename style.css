@@ -726,3 +726,11 @@ MOSTRAR MÁS TRABAJOS
     transform: translateY(-8px) scale(1.02);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
+/* CENTRAR BOTÓN MOSTRAR MÁS */
+
+.show-more-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+}

@@ -719,3 +719,13 @@ MOSTRAR MÁS TRABAJOS
     cursor: pointer;
     border: none;
 }
+/* ANIMACIÓN PARA LOS TRABAJOS MOSTRADOS */
+
+.extra-work.show {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.extra-work.show:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
